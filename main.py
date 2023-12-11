@@ -9,6 +9,8 @@ ref = None
 import json
 from streamlit_option_menu import option_menu
 from datetime import datetime
+from streamlit_webrtc import webrtc_streamer
+webrtc_streamer(key="sample")
 FIREBASE_APP_NAME="myapp"
 
 
